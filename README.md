@@ -13,9 +13,11 @@ This repo is designed for Lab 3 of ROB599 Medical Robotics, WN2025 University of
 For the coding part of this lab, you should only revise [`mbot_teleoperation.c`](/tests/mbot_teleoperation.c)
 
 ## Linux Setup
-The [MBot Pico SDK](https://github.com/MBot-Project-Development/pico_sdk) is simplified, and Linux-based only. You are welcomed to use any Linux-based distribution or methods such as a virtual machine or dual boot. However, for simplicity, we provide a WSL setup guide here. Refer to [Microsoft's Official WSL Installation](https://learn.microsoft.com/en-us/windows/wsl/install) for more info. 
+The [MBot Pico SDK](https://github.com/MBot-Project-Development/pico_sdk) is required for this lab, and is Linux-based only. You are welcomed to use any Linux-based distribution you'd like (e.g., native install, dual-boot, virtual machine, WSL, etc.). 
 
-For Mac users, you can explore using **brew** and **Clang**, or please find a Windows teammate ( ಠ‿<)
+If you do not have any of these Linux environments installed currently:
+Windows users: we suggest using WSL, with the guide provided here: [Microsoft's Official WSL Installation](https://learn.microsoft.com/en-us/windows/wsl/install) 
+Mac users: you can explore using **brew** and **Clang**, or please be sure to be paired with a Windows teammate ( ಠ‿<)
 
 Open PowerShell or Windows Command Prompt in **administrator** mode
 ```powershell
